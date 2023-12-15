@@ -16,7 +16,7 @@
 
                     Console.WriteLine("Pasirinkite:");
                     Console.WriteLine("1. Prisijungti");
-                    Console.WriteLine("2. Play");
+                    Console.WriteLine("2. Exit");
 
                     input = Console.ReadLine();
 
@@ -47,8 +47,8 @@
         }
         static void Play()
         {
-            List<string> questions = new List<string> { "Žalgirio komandos spalva?", "2+2?" };
-            List<string> answer = new List<string> { "žalia", "4" };
+            List<string> questions = new List<string> { "Žalgirio komandos spalva?", "2+2?", "Žalgirio komandos spalva?", "2+2?" };
+            List<string> answer = new List<string> { "žalia", "4", "žalia", "4" };
 
             for (int i = 0; i < questions.Count; i++)
             {
@@ -69,8 +69,10 @@
                     Console.ResetColor();
                     //neteisingai nepridedam taškų
                 }
-                Console.WriteLine("Paspausk bet ką kad testum");
+                Console.WriteLine("Paspausk bet ką kad testum.");
                 Console.ReadKey();
+
+
             }
         }
     }
