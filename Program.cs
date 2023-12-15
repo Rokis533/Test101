@@ -18,6 +18,7 @@
                     Console.WriteLine("1. Prisijungti");
                     Console.WriteLine("2. Exit");
                     Console.WriteLine("3. Results");
+                    //kas čia parašyta
 
                     input = Console.ReadLine();
 
