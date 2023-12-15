@@ -16,7 +16,7 @@
 
                     Console.WriteLine("Pasirinkite:");
                     Console.WriteLine("1. Prisijungti");
-                    Console.WriteLine("2. Play");
+                    Console.WriteLine("2. Results");
 
                     input = Console.ReadLine();
 
