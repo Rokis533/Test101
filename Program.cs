@@ -17,6 +17,7 @@
                     Console.WriteLine("Pasirinkite:");
                     Console.WriteLine("1. Prisijungti");
                     Console.WriteLine("2. Exit");
+                    Console.WriteLine("3. Results");
 
                     input = Console.ReadLine();
 
@@ -71,8 +72,6 @@
                 }
                 Console.WriteLine("Paspausk bet ką kad testum.");
                 Console.ReadKey();
-
-
             }
         }
     }
